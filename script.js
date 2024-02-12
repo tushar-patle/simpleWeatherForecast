@@ -21,7 +21,7 @@ citySelect.addEventListener('change', function() {
             const descriptionLabel = document.createElement('p3');
             descriptionLabel.textContent = `Atmosphere : ${description}`;
 
-
+            weatherDetails.innerHTML = '';
             weatherDetails.appendChild(temperatureLabel);
             weatherDetails.appendChild(document.createElement('br'));
             weatherDetails.appendChild(windLabel);
