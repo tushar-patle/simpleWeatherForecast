@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAndClock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titleImg" class="titleImg">
+        <img src="weatherLogo.jpg">
+        <h1><b>Weather Report</b></h1>
+    </div>
+    <div id="userInputCity" class="userInputCity">
+        <label for="userInput"><i>Enter city name: </i></label>
+        <select id="citylist">
+            <option value="SelectCity">Select City</option>
+            <option value="NewDelhi">New Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+    </div>
+    <div id="submitReset" class="submitReset">
+        <br>
+        <button id="reset" type="reset">Reset</button>
+    </div>
+    <div id="WeatherDetails" class="WeatherDetails">
+        <br>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
