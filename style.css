@@ -5,7 +5,7 @@ head, body {
 }
 
 img {
-    height: 550px;
+    height: 500px;
     width: 700px;
     display: block; /* Ensures image is a block-level element */
     float: right; /* Centers the block-level element horizontally */
@@ -19,14 +19,14 @@ img {
 
 #edit {
     height: 5%;
-    width: 11%;
+    width: 14%;
     background: yellow;
     border: 2px solid black;
 }
 
 .box {
     height: 60px;
-    width: 15%;
+    width: 14%;
     background-color: lightgray;
     border: 2px solid black;
     justify-content: space-between;
