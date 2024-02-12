@@ -16,3 +16,18 @@ img {
 #userInput {
     background-color: darkgray;
 }
+
+#edit {
+    height: 5%;
+    width: 11%;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.box {
+    height: 60px;
+    width: 12%;
+    background-color: lightgray;
+    border: 2px solid black;
+    justify-content: space-between;
+}
